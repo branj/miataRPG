@@ -1,0 +1,17 @@
+import { ChallengeFactory } from "../../factories/ChallengeFactory";
+
+export const TAKE_OFF_WHEEL = ChallengeFactory.makeStep('Take off wheel', '#tire-iron', 'Determine the access you need and use your #tire-iron to remove the lug nuts', false)
+export const JACK_CAR = ChallengeFactory.makeStep('Jack up the car', '#car-jack', 'Determine the access you need and use your #car-jack hoist car up for access; Make sure jack contact point with vehicle is stable and secured with strong metal.', false)
+export const INSPECT_BRAKE_LINE = ChallengeFactory.makeStep('Examine brake line', 'busted?', 'Looks for any signs of wear or leeking...', false)
+export const INSPECT_PADS = ChallengeFactory.makeStep('Examine brake pad', 'is my brake pad worn?', 'Looks for any signs of wear on the pad, and ceramic still left', false)
+export const LUBRICATE_SLIDER_PIN = ChallengeFactory.makeStep('Lubricate slider pins', 'just to be sure', 'Take out slider pin, grease it up, and re-insert.', false)
+export const CHANGE_CALIPERS = ChallengeFactory.makeStep('Change Brake Calipers', 'dilligence...', 'Unscrew from system, and re-apply newer calipers that fit your Miata.', false)
+export const CHANGE_ROTORS = ChallengeFactory.makeStep('Change Brake Rotos', 'a road', 'Unscrew from system, and re-apply newer calipers that fit your Miata.', false)
+export const CHANGE_PADS = ChallengeFactory.makeStep('Change Brake Rotos', 'a road', 'Unscrew from system, and re-apply newer calipers that fit your Miata.', false)
+export const DRAIN_OIL = ChallengeFactory.makeStep('Drain Engine Oil', 'away she goes', 'Unscrew engine oil retaining nut', false)
+export const REFILL_ENGINE_COOLANT = ChallengeFactory.makeStep('Drain Engine Oil', 'away she goes', 'Unscrew engine oil retaining nut', false)
+export const TAKE_NOTE = ChallengeFactory.makeStep('Make a note of this status', 'forget me not', 'Log the status of this item away somewhere so you can be sure to remember; the author of this software should add a feature', false)
+export const ACCESS_BRAKE_CABLE = ChallengeFactory.makeStep('Make a note of this status', 'forget me not', 'Log the status of this item away somewhere so you can be sure to remember; the author of this software should add a feature', false)
+export const TIGHTEN_BRAKE_CABLE = ChallengeFactory.makeStep('Make a note of this status', 'forget me not', 'Log the status of this item away somewhere so you can be sure to remember; the author of this software should add a feature', false)
+export const REMOVE_BRAKE_FOOT_PADS = ChallengeFactory.makeStep('Make a note of this status', 'forget me not', 'Log the status of this item away somewhere so you can be sure to remember; the author of this software should add a feature', false)
+export const REPLACE_BRAKE_FOOT_PADS = ChallengeFactory.makeStep('Make a note of this status', 'forget me not', 'Log the status of this item away somewhere so you can be sure to remember; the author of this software should add a feature', false)

@@ -5,9 +5,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(/background.jpg);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.logo {
+  text-align: right;
+  background: url(/miata.svg);
+  background-color: white;
+  background-size: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 64px;
+  padding: 10%;
+  color: gray;
 }
