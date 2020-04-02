@@ -116,8 +116,8 @@ export default class GameSession {
         var points = this.points()
         var maxPoints = GameSession.maxPoints()
         var threshHold = maxPoints/DIFFICULTIES.length;
-        console.log(Math.floor(points/threshHold))
-        return DIFFICULTIES[Math.floor(points/threshHold)-1].name 
+        var difIndex = Math.ceil(points/threshHold)-1
+        return DIFFICULTIES[difIndex].name 
     }
 
     getStatsProgress(challenge? : Challenge) {

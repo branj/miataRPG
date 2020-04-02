@@ -26,7 +26,7 @@ const ChallengePopoverComponent: React.FC<ChallengeViewProp> = ({challenge, game
     
     var button = <Button type="primary" block={true} disabled={locked}>{challenge.completed ? "Re-Play" : "Accept"}</Button>
     var link = <Link to={"/challenge/accept/" + challenge.name}>{button}</Link>
-    var alert = locked ? <Alert banner message="Not enough xp" type="error" /> : '' 
+    var alert = locked && <Alert banner message="Not enough xp" type="error" /> 
 
     const progressData = gameSession.getStatsProgress(challenge.completed ? undefined : challenge); 
 
